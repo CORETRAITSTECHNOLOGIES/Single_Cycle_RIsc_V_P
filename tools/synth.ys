@@ -1,0 +1,6 @@
+read_verilog rtl/Single_Cycle.v
+hierarchy -check -top Single_Cycle
+synth -top Single_Cycle
+check -assert
+stat
+write_json results/core.json

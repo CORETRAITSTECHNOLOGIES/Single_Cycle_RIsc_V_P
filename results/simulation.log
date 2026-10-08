@@ -1,0 +1,4 @@
+VCD info: dumpfile results/core.vcd opened for output.
+PASS: 4120 immediate extraction checks
+PASS: 167 reference-trace checks, 32 registers, 64 memory words, JAL loop and 9 fault cases
+sim/tb_single_cycle.v:56: $finish called at 5926000 (1ps)
